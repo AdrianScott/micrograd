@@ -71,7 +71,7 @@ class Value:
     def __neg__(self):
         return self * (-1)
 
-    def _radd__(self, other):
+    def __radd__(self, other):
         return self + other
 
     def __sub__(self, other):
